@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style4.css">
+  </head>
+  <body>
+
+    <div class="main">
+      <!-- <div class="logo">
+        <img src="Images/logo.jpg">
+      </div> -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resturants.html">Resturants</a></li>
+        <li><a href="city.html">City</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+        <li><a href="team.html">About Us</a></li>
+      </ul>
+    </div><br><br><br>
+
+    <div class="contact-title">
+      <h1>Want to say something ?</h1>
+      <h2>Catering to your needs</h2>
+    </div><br>
+
+
+<div class="contact-form">
+  <form id="contact-form" action="php/contact-form-handler.php" method="post">
+    <br><br>
+    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+    <br>
+    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+    <br>
+    <textarea class="form-control" name="message" rows="4" cols="30" placeholder="Your Message" required></textarea>
+    <br>
+    <input type="submit" name="Submit" class="form-control submit" value="SEND MESSAGE"><br>
+
+  </form>
+
+</div>
+
+  </body>
+</html>
